@@ -1,6 +1,21 @@
 # SI-Testing
 
-Spring 2024, Dr. Shalan
+> Spring 2024, Dr. Shalan
 
-## Circuit Schematic
-![SIcirc drawio](https://github.com/AUC-Hardware/SI-Testing/assets/96356943/c84ee3e8-bf5e-4b44-87f2-aa2fab64eca9)
+**Goal:** is to provide a circuit capable of testinga chip under changing voltage and temperature. 
+- for temperature, we are using a thermoelectric cooler. as a sub goal we need to supply with the ideal PWM signal to be able to vary the temperature rapidly
+
+## Current Circuit Schematic
+
+
+
+
+
+
+
+
+>[!NOTE] 
+>
+> *Optional circuitry* \
+> High Power Resistor \
+> H-Bridge
