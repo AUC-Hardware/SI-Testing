@@ -64,6 +64,13 @@ Datasheet:
 - Will provide temperature input to the PICO from the Thermoelectric cooler to be given to the PID
 
 ---
+### Voltage Regulator: LM317
+
+Datasheet: https://u.pcloud.link/publink/show?code=XZqG0X0ZURodwRRACp8z1VfRVn5GCHM6Uq97
+
+It will be used to assist with voltage control. See the voltage control circuit diagram for more details
+
+---
 
 >[!NOTE] 
 >
