@@ -7,8 +7,6 @@
 
 ## Current Circuit Schematic
 
-/*![SIcirc drawio (1) drawio](https://github.com/AUC-Hardware/SI-Testing/assets/96356943/2838022a-a774-4877-bd7d-3ab0b5a9d476)*/
-
 >[!WARNING]
 >
 > Raspberry Pico pins are arbitrary in this diagram, consult the pinout diagram when connecting the pico
