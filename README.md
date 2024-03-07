@@ -7,8 +7,6 @@
 
 ## Current Circuit Schematic
 
-![SIcirc drawio (1) drawio](https://github.com/AUC-Hardware/SI-Testing/assets/96356943/2838022a-a774-4877-bd7d-3ab0b5a9d476)
-
 >[!WARNING]
 >
 > Raspberry Pico pins are arbitrary in this diagram, consult the pinout diagram when connecting the pico
@@ -57,9 +55,9 @@ Volatile Memory Digital Potentiometer
 - Has memory to remember the latest resistance setting
 
 ---
-### Temperature Sensor : To be documented
+### Temperature Sensor : DS18B20 Waterproof Temperature Sensor
 
-Datasheet:
+Datasheet: https://u.pcloud.link/publink/show?code=XZfujk0ZSR5hogIrCKkFY19oXnh8zp0lHThX
 
 - Will provide temperature input to the PICO from the Thermoelectric cooler to be given to the PID
 
