@@ -57,9 +57,9 @@ Volatile Memory Digital Potentiometer
 - Has memory to remember the latest resistance setting
 
 ---
-### Temperature Sensor : To be documented
+### Temperature Sensor : DS18B20 Waterproof Temperature Sensor
 
-Datasheet:
+Datasheet: https://u.pcloud.link/publink/show?code=XZfujk0ZSR5hogIrCKkFY19oXnh8zp0lHThX
 
 - Will provide temperature input to the PICO from the Thermoelectric cooler to be given to the PID
 
