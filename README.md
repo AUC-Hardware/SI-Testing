@@ -58,6 +58,7 @@ Volatile Memory Digital Potentiometer
 ### Second Digital Potentiometer : X9C103S
 
 Datasheet: [https://u.pcloud.link/publink/show?code=XZEJx00Z2zHjB7IoRRXOGcCnvikJS4BVzfdy](https://u.pcloud.link/publink/show?code=XZcJRX0ZARyeeIvch2VLE2VBvFsLeyBOw4zV)
+Example: https://electropeak.com/learn/interfacing-x9c103s-10k-digital-potentiometer-module-with-arduino/
 
 - Is used to vary the voltage on the chip
 - 0-10kΩ with 100 steps
