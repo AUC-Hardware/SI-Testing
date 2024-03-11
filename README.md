@@ -72,6 +72,22 @@ Datasheet: https://u.pcloud.link/publink/show?code=XZfujk0ZSR5hogIrCKkFY19oXnh8z
 - Will provide temperature input to the PICO from the Thermoelectric cooler to be given to the PID
 
 ---
+### Thermometer : TP101 
+
+Datasheet: https://u.pcloud.link/publink/show?code=XZfujk0ZSR5hogIrCKkFY19oXnh8zp0lHThX
+
+- Measuring Temperature Range: -50 to 300 degrees (-58 to 572 Fahrenheit)
+
+---
+### Thermometer with probe: TPM-10  
+
+Datasheet: https://u.pcloud.link/publink/show?code=XZfujk0ZSR5hogIrCKkFY19oXnh8zp0lHThX
+
+- Temperature range: -50°C~ 110°C
+- Temperature accuracy: ±1°C
+- Resolution: 0.1°C
+
+---
 ### Voltage Regulator: LM317
 
 Datasheet: https://u.pcloud.link/publink/show?code=XZqG0X0ZURodwRRACp8z1VfRVn5GCHM6Uq97
