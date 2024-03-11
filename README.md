@@ -55,6 +55,15 @@ Volatile Memory Digital Potentiometer
 - Has memory to remember the latest resistance setting
 
 ---
+### Second Digital Potentiometer : X9C103S
+
+Datasheet: [https://u.pcloud.link/publink/show?code=XZEJx00Z2zHjB7IoRRXOGcCnvikJS4BVzfdy](https://u.pcloud.link/publink/show?code=XZcJRX0ZARyeeIvch2VLE2VBvFsLeyBOw4zV)
+
+- Is used to vary the voltage on the chip
+- 0-10kΩ with 100 steps
+- Up to ±5V across the potentiometer end-points
+
+---
 ### Temperature Sensor : DS18B20 Waterproof Temperature Sensor
 
 Datasheet: https://u.pcloud.link/publink/show?code=XZfujk0ZSR5hogIrCKkFY19oXnh8zp0lHThX
