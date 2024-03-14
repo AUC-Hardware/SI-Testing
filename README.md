@@ -5,12 +5,6 @@
 **Goal:** is to provide a circuit capable of testinga chip under changing voltage and temperature. 
 - for temperature, we are using a thermoelectric cooler. as a *sub goal* we need to supply with an ideal controlling (PWM) signal to be able to vary the temperature rapidly
 
-## Current Circuit Schematic
-
->[!WARNING]
->
-> Raspberry Pico pins are arbitrary in this diagram, consult the pinout diagram when connecting the pico
-
 ---
 
 ### Raspberry Pi Pico W
