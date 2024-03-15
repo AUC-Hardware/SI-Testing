@@ -53,7 +53,7 @@ $V_H$ high voltage
 | INC Cycle Time              | 4   |     |     | $\mu s$           |
 | INC Rise and Fall Time      |     |     | 500 | $\mu s$           |
 | Power Up to Wiper Stable    |     |     | 500 | $\mu s$           |
-| $V_{cc}$ Power up Rate      | 0.2 |     | 50  | $\frac{mV{\mu S}  |
+| $V_{cc}$ Power up Rate      | 0.2 |     | 50  | $\frac{mV{\mu S}$ |
 
 
 ### Key Takeaways
