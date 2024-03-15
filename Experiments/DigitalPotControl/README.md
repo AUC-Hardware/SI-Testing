@@ -5,10 +5,9 @@ The POT has the following control signals,
 
 ## Circuit 
 
-![[Digital_Pot_Control_bb.svg]]
+![Digital_Pot_Control_bb](./Digital_Pot_Control_bb.svg)
 
-
-Skip to [[#Key Takeaways]] for a TLDR of X9C103S control.
+Skip to [Key Takeaways](#key-takeaways) for a TLDR of X9C103S control.
 
 ## Symbol Descriptions
 
@@ -54,7 +53,7 @@ $V_H$ high voltage
 | INC Cycle Time              | 4   |     |     | $\mu s$           |
 | INC Rise and Fall Time      |     |     | 500 | $\mu s$           |
 | Power Up to Wiper Stable    |     |     | 500 | $\mu s$           |
-| $V_{cc}$ Power up Rate      | 0.2 |     | 50  | $\frac{mV{\mu S}  |
+| $V_{cc}$ Power up Rate      | 0.2 |     | 50  | $\frac{mV}{\mu S}$|
 
 
 ### Key Takeaways
