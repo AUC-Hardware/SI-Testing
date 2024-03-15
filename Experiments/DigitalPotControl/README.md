@@ -5,10 +5,9 @@ The POT has the following control signals,
 
 ## Circuit 
 
-![[Digital_Pot_Control_bb.svg]]
+![Digital_Pot_Control_bb](./Digital_Pot_Control_bb.svg)
 
-
-Skip to [[#Key Takeaways]] for a TLDR of X9C103S control.
+Skip to [Key Takeaways](#key-takeaways) for a TLDR of X9C103S control.
 
 ## Symbol Descriptions
 
