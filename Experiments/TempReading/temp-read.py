@@ -22,5 +22,6 @@ while True:
         
     for device in devices:
         print("Device: {}".format(device))
+        
         print("Temperature= {}".format(ds.read_temp(device)))
 
