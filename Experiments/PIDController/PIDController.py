@@ -154,11 +154,12 @@ class PID:
     
 
 async def main():
-    pidController = PID(1, 2, 1,
-                        1, -50, 50, 0.450, 0, 0 ,0 ,0, 23)
-    pidController.period = 2
+    pidController = PID(45, 2, 35,
+                        1, 0, 15, 0.440, 0, 0 ,0 ,0, 23)
+    pidController.period = 0.5
     pidController.startPID()
     tempReader = TempReader()
+    await uasyncio.sleep_ms(40*5)
 
     if (tempReader.scan_devices()):
         tempReader.startTempRead()
@@ -169,16 +170,31 @@ async def main():
         return
     csv = open("data.csv", "at")
     time: int = 0
-
-    while True:
+    setpoint: float = 40.0
+    isControlTest: bool = False
+    
+    while isControlTest:
         if (tempReader.currentReadTemp is not None):
-            pidController.pid_update(40, tempReader.currentReadTemp)
+            if(tempReader.currentReadTemp >= setpoint):
+                pidController.set_duty(0)
+            else:
+                pidController.set_duty(100)
+            csv.write("{}, {}, {}\n".format(time, tempReader.currentReadTemp, setpoint))
+        time += 1
+        await uasyncio.sleep_ms(40)
+
+
+    while not isControlTest:
+        if (tempReader.currentReadTemp is not None):
+            pidController.pid_update(setpoint, tempReader.currentReadTemp)
             if (pidController.out > 0):
-                pidController.set_duty(pidController.out % 100)
+                pidController.set_duty(pidController.out)
+            elif (pidController.out >= 100):
+                pidController.set_duty(100)
             else:
                 pidController.set_duty(0)
             print(pidController.out)
-            csv.write("{}, {}, {}\n".format(pidController.out, tempReader.currentReadTemp, time))
+            csv.write("{}, {}, {}, {}\n".format(time, tempReader.currentReadTemp, setpoint, pidController.out))
         time += 1
         await uasyncio.sleep_ms(40)
 
